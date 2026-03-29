@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background-color:#0F172A;
+   color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.githubBtn{
+    border: 2px #8b5CF6 solid;
+    color:#7e52e6
+}
+
+.profile-img img{
+   border: 4px #8b5CF6 solid;
+}
+
+.resume{
+  background: linear-gradient(90deg, #FF00FF, #8B5CF6);
+}
+
+
+.resume:hover{
+  transform: scale(1) !important;
+  box-shadow: 0 10px 2px rgba(0, 0, 0, 0.25) !important;
+}
