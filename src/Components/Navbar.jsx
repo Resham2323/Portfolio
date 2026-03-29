@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='px-[25px] lg:p-4 top-0 w-full bg-[#0F172A] fixed z-50'>
       <div className="flex flex-row justify-between items-center gap-4 px-20">
-        <img src='src/assets/logo.png' alt="Logo" className='size-16' />
+        <img src='/logo.png' alt="Logo" className='size-16' />
         <div className='flex justify center gap-10 text-lg'>
           <a href='#about'>About</a>
           <a href='#skill'>Skill</a>
